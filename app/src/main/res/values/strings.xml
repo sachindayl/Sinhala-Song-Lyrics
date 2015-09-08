@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sinhala Song Lyrics</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="random_song">A song will be randomly picked for you! Click the button below and enjoy!</string>
+    <string name="action_settings">Settings</string>
+</resources>

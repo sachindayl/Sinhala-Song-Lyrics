@@ -18,12 +18,22 @@
         android:text="@string/random_song" />
 
     <Button
-        android:id="@+id/random_it_button"
-        android:layout_width="wrap_content"
+        android:id="@+id/song_list_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="songList"
+        android:text="Song List" />
+    <Button
+        android:id="@+id/random_it_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/song_list_button"
         android:onClick="showSong"
         android:text="Random It!" />
+
+
 
 </RelativeLayout>

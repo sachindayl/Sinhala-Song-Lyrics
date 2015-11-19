@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="random_song">A song will be randomly picked for you! Click the button below and enjoy!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_song_list_view">SongListViewActivity</string>
+    <string name="song_list_head">Song List</string>
 </resources>

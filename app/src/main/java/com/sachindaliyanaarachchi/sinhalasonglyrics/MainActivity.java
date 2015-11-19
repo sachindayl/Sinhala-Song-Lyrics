@@ -56,4 +56,8 @@ public class MainActivity extends AppCompatActivity {
         TextView songName = (TextView) findViewById(R.id.song_name);
         songName.setText(song);
     }
+
+    public void songList(View view){
+
+    }
 }

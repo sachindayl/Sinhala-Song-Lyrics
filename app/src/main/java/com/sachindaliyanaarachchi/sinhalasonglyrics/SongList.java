@@ -20,6 +20,7 @@ import java.util.HashMap;
 
 public class SongList {
 
+    //Hashmap for every author
     HashMap<String, String> mm = new HashMap<>();
     HashMap<String, String> cw = new HashMap<>();
     HashMap<String, String> rg = new HashMap<>();
@@ -180,92 +181,77 @@ public class SongList {
         setOther(other);
     }
 
+//getters
     public HashMap<String, String> getMM() {
         return mm;
     }
-
     public HashMap<String, String> getCW() {
         return cw;
     }
-
     public HashMap<String, String> getRG() {
         return rg;
     }
-
     public HashMap<String, String> getHRJ() {
         return hrj;
     }
-
     public HashMap<String, String> getGK() {
         return gk;
     }
-
     public HashMap<String, String> getVR() {
         return vr;
     }
-
     public HashMap<String, String> getPS() {
         return ps;
     }
-
     public HashMap<String, String> getCTF() {
         return ctf;
     }
-
     public HashMap<String, String> getBaila() {
         return b;
     }
-
     public HashMap<String, String> getGY() {
         return gy;
     }
-
     public HashMap<String, String> getOther() {
         return other;
     }
 
-
+//setters
     public void setMM(HashMap<String, String> mm) {
         this.mm = mm;
     }
-
     public void setCW(HashMap<String, String> cw) {
         this.cw = cw;
     }
-
     public void setRG(HashMap<String, String> rg) {
         this.rg = rg;
     }
-
     public void setHRJ(HashMap<String, String> hrj) {
         this.hrj = hrj;
     }
-
     public void setGK(HashMap<String, String> gk) {
         this.gk = gk;
     }
-
     public void setVR(HashMap<String, String> vr) {
         this.vr = vr;
     }
-
     public void setPS(HashMap<String, String> ps) {
         this.ps = ps;
     }
-
     public void setCTF(HashMap<String, String> ctf) {
         this.ctf = ctf;
     }
-
     public void setBaila(HashMap<String, String> b) {
         this.b = b;
     }
-
     public void setGY(HashMap<String, String> gy) {
         this.gy = gy;
     }
-
     public void setOther(HashMap<String, String> other) {
         this.other = other;
+    }
+
+    public void setSongList(){
+
     }
 }
